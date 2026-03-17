@@ -1,0 +1,67 @@
+{
+    "head": [
+    {
+      "id": "001",
+      "name": "Head",
+      "variants": {
+        "default": "/character/head/head_default.png",
+        "blue": "/character/head/head_blue.png",
+        "green": "/character/head/head_green.png",
+        "red": "/character/head/head_red.png",
+        "purple": "/character/head/head_purple.png"
+      }
+    }
+  ],
+    "tors": [
+      {
+      "id": "011",
+      "name": "Torso",
+      "variants": {
+        "default": "/character/torso/torso_default.png",
+        "blue": "/character/torso/torso_blue.png",
+        "green": "/character/torso/torso_green.png",
+        "red": "/character/torso/torso_red.png",
+        "purple": "/character/torso/torso_purple.png"
+      }
+    }
+    ],
+    "hands": [
+      {
+        "id": "021",
+        "name": "Руки",
+        "variants":{
+          "default": "/character/hands/hands_default.png",
+          "blue": "/character/hands/hands_blue.png",
+          "green": "/character/hands/hands_green.png",
+          "red": "/character/hands/hands_red.png",
+          "purple": "/character/hands/hands_purple.png"
+        }
+      }
+    ],
+    "legs": [
+      {
+        "id": "031",
+        "name": "Legs",
+        "variants":{
+          "default": "/character/legs/legs_default.png",
+          "blue": "/character/legs/legs_blue.png",
+          "green": "/character/legs/legs_green.png",
+          "red": "/character/legs/legs_red.png",
+          "purple": "/character/legs/legs_purple.png"
+        }
+      }
+    ],
+    "accessories":[
+      {
+        "id": "041",
+        "name": "Accessories",
+        "variants":{
+          "default": "/character/accessories/accessories_default.png",
+          "blue": "/character/accessories/accessories_blue.png",
+          "green": "/character/accessories/accessories_green.png",
+          "red": "/character/accessories/accessories_red.png",
+          "purple": "/character/accessories/accessories_purple.png"
+        }
+      }
+    ]
+}

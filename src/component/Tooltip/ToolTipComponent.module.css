@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 45px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+}
+
+.frame {
+  display: flex;
+  align-items: center;
+  background: rgba(217, 217, 217, 0.23);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 50%;
+  height: 27px;
+  width: 27px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  transition: width 0.4s ease, padding 0.4s ease, border-radius 0.4s ease;
+}
+
+.icon_info {
+  /* width: 20px;
+  height: 20px; */
+  flex-shrink: 0;
+  margin: auto;
+  transition: transform 0.4s ease;
+}
+
+.tooltip {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 8px;
+  white-space: nowrap;
+  max-width: 0;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: max-width 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
+}
+
+.frame:hover {
+  width: auto;               
+  padding: 0 3px;           
+  border-radius: 9999px;      
+}
+
+.frame:hover .tooltip {
+  max-width: 100%;
+  opacity: 1;
+  transform: translateX(0);
+}

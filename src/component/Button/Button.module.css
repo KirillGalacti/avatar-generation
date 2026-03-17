@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.button{
+    font-family: 'Manrope', sans-serif;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+    background: none;
+    color:#fff;
+    font-size: 24px;
+    /* width: calc(100%/5); */
+    /* margin-right: .5rem; */
+    text-align: center;
+    width: 100%;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.button:disabled{
+    cursor: not-allowed;
+}
+
+.active{
+    background: #434343;
+    color: #fff;
+    width: 100%;
+    /* width: calc(100%/5); */
+}
+
+.grid_item{
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  max-width: 190px;
+  max-height: 165px;
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #d6d6d6;
+  margin: 5px;
+}
+
+.pallete{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 65px;
+    height: 65px;
+    float: left;
+    background: #d6d6d6;
+    margin: 5px;
+}
+
+.grid_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   /* вписать целиком; для обрезки — поставь cover */
+    display: block;
+    pointer-events: none;  /* кликается кнопка, не картинка */
+}
+
+.grid_item_active,
+.pallete_active{
+  border: 3px solid #434343
+}
+
+.grid_item:hover,
+.pallete:hover{
+    border: 3px solid #434343
+}
+
+

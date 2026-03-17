@@ -1,0 +1,17 @@
+{
+    "name": "Player228",
+    "items": {
+        "head": "001",
+        "tors": "003",
+        "hands": "default",
+        "legs": "default",
+        "accessories": "default"
+    },
+    "colors": {
+        "head": "default",
+        "tors": "blue",
+        "hands": "default",
+        "legs": "default",
+        "accessories": "default"
+    }
+}
